@@ -14,6 +14,7 @@ struct ObservableView: View {
     
     // using an external model (mind the declaration)
     @StateObject private var vm = PeopleViewModel()
+    @StateObject private var vm2 = PeopleViewModel() // different from vm2
     
     var body: some View {
         VStack {
