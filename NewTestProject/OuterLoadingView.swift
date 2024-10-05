@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct OuterLoadingView: View {
+    
+    @Binding var isLoadingOuter : Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if isLoadingOuter {
+            ProgressView()
+        } else {
+            Text("Finished loading")
+        }
     }
 }
 
-#Preview {
-    OuterLoadingView()
+// to show multiple views
+struct OuterLoadingView_Previews : PreviewProvider {
+    static var previews: some View {
+        OuterLoadingView(isLoadingOuter: .constant(false))
+        OuterLoadingView(isLoadingOuter: .constant(true))
+    }
 }
+
+//#Preview {
+//    Group {
+//        OuterLoadingView(isLoadingOuter: .constant(false))
+//        OuterLoadingView(isLoadingOuter: .constant(true))
+//    }
+//}

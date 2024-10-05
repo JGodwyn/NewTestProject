@@ -8,8 +8,64 @@
 import SwiftUI
 
 struct ObservableView: View {
+    
+    @State private var people : [String] = []
+    @State private var isLoading : Bool = false
+    
+    // using an external model (mind the declaration)
+    @StateObject private var vm = PeopleViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            if isLoading {
+                ProgressView()
+                Text("Loading…")
+                    .padding()
+            } else {
+                Text(people.isEmpty ? "No users found" : "Managed to get \(people.joined(separator: ", "))")
+                    .padding()
+            }
+            
+            Button ("Fetch users"){
+                withAnimation {
+                    fetchPeople()
+                }
+            }.padding()
+            
+            Text("Using an external model below")
+                .font(.system(size: 20, weight: .bold))
+            
+            
+            // using an external class
+            if vm.isLoading {
+                ProgressView()
+                Text("Loading…")
+                    .padding()
+            } else {
+                Text(vm.people.isEmpty ? "No users found" : "Managed to get \(vm.people.joined(separator: ", "))")
+                    .padding()
+            }
+            
+            Button ("Fetch users externally") {
+                withAnimation {
+                    vm.fetchPeople()
+                }
+            }
+        }
+    }
+}
+
+// using a model internally
+// I can't use this for a view outside this file
+private extension ObservableView {
+    func fetchPeople() {
+        isLoading = true
+        
+        // run after the delay specified here
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
+            people = ["Godwin", "John", "Nzubechukwu"]
+            isLoading = false
+        }
     }
 }
 
