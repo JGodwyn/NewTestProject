@@ -8,19 +8,23 @@
 import SwiftUI
 
 struct PurchaseStateView: View {
+    
+    // still points to the same purchaseVm declared in PurchaseView
+    // I can use any name other than purchaseVm (eg newVm) and it still
+    // points to the same object
+    @EnvironmentObject var purchaseVm : PurchaseViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "lock")
-                .font(.system(size: 64))
-                .symbolVariant(.fill)
-                .padding()
-            Text("The user hasn't unlocked this feature")
-                .frame(width: 200)
-                .multilineTextAlignment(.center) // align center
-        }
+        
+        // I can just add PurchaseStatusView here without needing to add any modifiers
+        // Isn't this normally how it's supposed to be?
+        // for some reason the tutor had to mention this
+        // the main logic is in PurchaseStatusView
+        PurchaseStatusView()
     }
 }
 
 #Preview {
     PurchaseStateView()
+        .environmentObject(PurchaseViewModel())
 }
