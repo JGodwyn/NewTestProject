@@ -32,6 +32,9 @@ struct LoginStatusView: View {
                 Text("Logged \(loginVm.isLoggedIn ? "in" : "out")")
             }
             .padding()
+            
+            // I am using a Binding class I created in another file
+            LoginBindView(isLogic: $loginVm.isLoggedIn) 
         }
     }
 }

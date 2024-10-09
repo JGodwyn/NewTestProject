@@ -9,20 +9,26 @@ import SwiftUI
 
 struct ContentView: View {
     
+    // using Environment Object
     @EnvironmentObject var loginVm : LoginViewModel
+    
+    // Using State Object
+    // for environment object, something similar
+    // to this was defined at the root file
+    @StateObject private var loggedInVm = LoggedInViewModel()
     
     var body: some View {
         VStack {
-            
             Text("Welcome to my app")
                 .font(.system(size: 27))
                 .bold()
                 .padding(32)
             
+            // using environment object
+            Text("Using environment object")
+            // login button
             // another way of writing buttons
             // this allows me to use ProgressView in the label
-            
-            // login button
             Button {
                 withAnimation {
                     loginVm.login()
@@ -67,6 +73,20 @@ struct ContentView: View {
             .frame(maxWidth: .infinity)
             .background(loginVm.isLoggedIn ? Color.red : Color.gray)
             .cornerRadius(8)
+            
+            
+            // Using the latest binding view
+            
+            Text("Using Binding View").padding(.top, 32)
+            
+            switch loggedInVm.currentState {
+                case .loading : 
+                    ProgressView()
+                case .loggedIn : 
+                    LoggedInView() { loggedInVm.logout() }
+                case .notLoggedIn :
+                    LoginView(user: $loggedInVm.user) { loggedInVm.login() }
+            }
         }
         .padding(.horizontal, 24)
     }
