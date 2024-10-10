@@ -16,6 +16,7 @@ struct ContentView: View {
     // for environment object, something similar
     // to this was defined at the root file
     @StateObject private var loggedInVm = LoggedInViewModel()
+    @StateObject private var observedLoggedInVm = LoggedInViewModel() //ObservedObject
     
     var body: some View {
         VStack {
@@ -75,10 +76,8 @@ struct ContentView: View {
             .cornerRadius(8)
             
             
-            // Using the latest binding view
-            
-            Text("Using Binding View").padding(.top, 32)
-            
+            // Using the binding method
+            Text("Using the binding method").padding(.top, 32)
             switch loggedInVm.currentState {
                 case .loading : 
                     ProgressView()
@@ -87,6 +86,20 @@ struct ContentView: View {
                 case .notLoggedIn :
                     LoginView(user: $loggedInVm.user) { loggedInVm.login() }
             }
+            
+            
+            // Using the @ObservedObject method
+            Text("Using the @ObservedObject method").padding(.top, 32)
+            switch observedLoggedInVm.currentState {
+                case .loading :
+                    ProgressView()
+                case .loggedIn :
+//                    LoggedInView() { loggedInVm.logout() }
+                    LoggedInViewObserved(observedVm: observedLoggedInVm)
+                case .notLoggedIn :
+                    LoginViewObserved(observedVm: observedLoggedInVm)
+            }
+            
         }
         .padding(.horizontal, 24)
     }

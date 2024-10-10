@@ -26,6 +26,8 @@
 		B86888742CB5299900A368D7 /* LoggedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86888732CB5299900A368D7 /* LoggedInView.swift */; };
 		B86888762CB538A900A368D7 /* LoggedInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86888752CB538A900A368D7 /* LoggedInViewModel.swift */; };
 		B86A5B122CAD42D700822A7A /* UsingColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A5B112CAD42D600822A7A /* UsingColorsView.swift */; };
+		B86BB9072CB7C59400EE06AC /* LoginViewObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB9062CB7C59400EE06AC /* LoginViewObserved.swift */; };
+		B86BB9092CB7C8A100EE06AC /* LoggedInViewObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB9082CB7C8A100EE06AC /* LoggedInViewObserved.swift */; };
 		B87BBC842CB16E80008EEA0E /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC832CB16E80008EEA0E /* StateView.swift */; };
 		B87BBC862CB19D5D008EEA0E /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC852CB19D5D008EEA0E /* BindingView.swift */; };
 		B87BBC882CB1A103008EEA0E /* OuterLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */; };
@@ -78,6 +80,8 @@
 		B86888732CB5299900A368D7 /* LoggedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInView.swift; sourceTree = "<group>"; };
 		B86888752CB538A900A368D7 /* LoggedInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewModel.swift; sourceTree = "<group>"; };
 		B86A5B112CAD42D600822A7A /* UsingColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingColorsView.swift; sourceTree = "<group>"; };
+		B86BB9062CB7C59400EE06AC /* LoginViewObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewObserved.swift; sourceTree = "<group>"; };
+		B86BB9082CB7C8A100EE06AC /* LoggedInViewObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewObserved.swift; sourceTree = "<group>"; };
 		B87BBC832CB16E80008EEA0E /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		B87BBC852CB19D5D008EEA0E /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterLoadingView.swift; sourceTree = "<group>"; };
@@ -147,19 +151,7 @@
 				B85576452CAFE75C009DC6FA /* ShapeView.swift */,
 				B85576472CAFF1AB009DC6FA /* BorderView.swift */,
 				B85576492CB071A1009DC6FA /* LayoutView.swift */,
-				B87BBC832CB16E80008EEA0E /* StateView.swift */,
-				B87BBC852CB19D5D008EEA0E /* BindingView.swift */,
-				B86888712CB5266800A368D7 /* LoginView.swift */,
-				B86888732CB5299900A368D7 /* LoggedInView.swift */,
-				B86888752CB538A900A368D7 /* LoggedInViewModel.swift */,
-				B87BBC892CB1ADA1008EEA0E /* ObservableView.swift */,
-				B87BBC8D2CB1DF77008EEA0E /* PurchaseView.swift */,
-				B857DB892CB428AA00A4046F /* PurchaseStatusView.swift */,
-				B87BBC8F2CB1E00B008EEA0E /* PurchaseStateView.swift */,
-				B868886E2CB5255200A368D7 /* Practice */,
-				B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */,
-				B87BBC8B2CB1B3FC008EEA0E /* PeopleViewModel.swift */,
-				B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */,
+				B86BB90A2CB7D76100EE06AC /* State management */,
 				B84E09BD2CABF1DB00D159CF /* Assets.xcassets */,
 				B84E09BF2CABF1DB00D159CF /* Preview Content */,
 			);
@@ -199,6 +191,28 @@
 				B868886C2CB5202F00A368D7 /* LoginBindView.swift */,
 			);
 			path = Practice;
+			sourceTree = "<group>";
+		};
+		B86BB90A2CB7D76100EE06AC /* State management */ = {
+			isa = PBXGroup;
+			children = (
+				B87BBC832CB16E80008EEA0E /* StateView.swift */,
+				B87BBC852CB19D5D008EEA0E /* BindingView.swift */,
+				B86888712CB5266800A368D7 /* LoginView.swift */,
+				B86BB9062CB7C59400EE06AC /* LoginViewObserved.swift */,
+				B86888732CB5299900A368D7 /* LoggedInView.swift */,
+				B86BB9082CB7C8A100EE06AC /* LoggedInViewObserved.swift */,
+				B86888752CB538A900A368D7 /* LoggedInViewModel.swift */,
+				B87BBC892CB1ADA1008EEA0E /* ObservableView.swift */,
+				B87BBC8D2CB1DF77008EEA0E /* PurchaseView.swift */,
+				B857DB892CB428AA00A4046F /* PurchaseStatusView.swift */,
+				B87BBC8F2CB1E00B008EEA0E /* PurchaseStateView.swift */,
+				B868886E2CB5255200A368D7 /* Practice */,
+				B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */,
+				B87BBC8B2CB1B3FC008EEA0E /* PeopleViewModel.swift */,
+				B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */,
+			);
+			path = "State management";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86BB9072CB7C59400EE06AC /* LoginViewObserved.swift in Sources */,
 				B8CC24D52CAC9C6800018626 /* ImageView.swift in Sources */,
 				B87BBC882CB1A103008EEA0E /* OuterLoadingView.swift in Sources */,
 				B87BBC8A2CB1ADA1008EEA0E /* ObservableView.swift in Sources */,
@@ -339,6 +354,7 @@
 				B84E09BC2CABF1D700D159CF /* ContentView.swift in Sources */,
 				B87BBC842CB16E80008EEA0E /* StateView.swift in Sources */,
 				B868886D2CB5202F00A368D7 /* LoginBindView.swift in Sources */,
+				B86BB9092CB7C8A100EE06AC /* LoggedInViewObserved.swift in Sources */,
 				B86888722CB5266800A368D7 /* LoginView.swift in Sources */,
 				B855764A2CB071A1009DC6FA /* LayoutView.swift in Sources */,
 				B8D6AD202CAEA4C100DF3BE4 /* GradientView.swift in Sources */,
