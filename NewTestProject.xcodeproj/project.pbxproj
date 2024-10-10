@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80246EA2CB83AB700176E37 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246E92CB83AB700176E37 /* LabelView.swift */; };
+		B80246EC2CB84C5E00176E37 /* LabelCapsuleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246EB2CB84C5E00176E37 /* LabelCapsuleStyle.swift */; };
 		B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */; };
 		B84E09BC2CABF1D700D159CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E09BB2CABF1D700D159CF /* ContentView.swift */; };
 		B84E09BE2CABF1DB00D159CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84E09BD2CABF1DB00D159CF /* Assets.xcassets */; };
@@ -28,6 +30,9 @@
 		B86A5B122CAD42D700822A7A /* UsingColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86A5B112CAD42D600822A7A /* UsingColorsView.swift */; };
 		B86BB9072CB7C59400EE06AC /* LoginViewObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB9062CB7C59400EE06AC /* LoginViewObserved.swift */; };
 		B86BB9092CB7C8A100EE06AC /* LoggedInViewObserved.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB9082CB7C8A100EE06AC /* LoggedInViewObserved.swift */; };
+		B86BB90C2CB7DA1400EE06AC /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB90B2CB7DA1400EE06AC /* DividerView.swift */; };
+		B86BB90E2CB7F14600EE06AC /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB90D2CB7F14600EE06AC /* ColorPickerView.swift */; };
+		B86BB9102CB7FDEA00EE06AC /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */; };
 		B87BBC842CB16E80008EEA0E /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC832CB16E80008EEA0E /* StateView.swift */; };
 		B87BBC862CB19D5D008EEA0E /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC852CB19D5D008EEA0E /* BindingView.swift */; };
 		B87BBC882CB1A103008EEA0E /* OuterLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */; };
@@ -58,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B80246E92CB83AB700176E37 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		B80246EB2CB84C5E00176E37 /* LabelCapsuleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCapsuleStyle.swift; sourceTree = "<group>"; };
 		B84E09B62CABF1D700D159CF /* NewTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestProjectApp.swift; sourceTree = "<group>"; };
 		B84E09BB2CABF1D700D159CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +89,9 @@
 		B86A5B112CAD42D600822A7A /* UsingColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingColorsView.swift; sourceTree = "<group>"; };
 		B86BB9062CB7C59400EE06AC /* LoginViewObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewObserved.swift; sourceTree = "<group>"; };
 		B86BB9082CB7C8A100EE06AC /* LoggedInViewObserved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewObserved.swift; sourceTree = "<group>"; };
+		B86BB90B2CB7DA1400EE06AC /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		B86BB90D2CB7F14600EE06AC /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
 		B87BBC832CB16E80008EEA0E /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		B87BBC852CB19D5D008EEA0E /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterLoadingView.swift; sourceTree = "<group>"; };
@@ -151,6 +161,11 @@
 				B85576452CAFE75C009DC6FA /* ShapeView.swift */,
 				B85576472CAFF1AB009DC6FA /* BorderView.swift */,
 				B85576492CB071A1009DC6FA /* LayoutView.swift */,
+				B86BB90B2CB7DA1400EE06AC /* DividerView.swift */,
+				B86BB90D2CB7F14600EE06AC /* ColorPickerView.swift */,
+				B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */,
+				B80246E92CB83AB700176E37 /* LabelView.swift */,
+				B80246EB2CB84C5E00176E37 /* LabelCapsuleStyle.swift */,
 				B86BB90A2CB7D76100EE06AC /* State management */,
 				B84E09BD2CABF1DB00D159CF /* Assets.xcassets */,
 				B84E09BF2CABF1DB00D159CF /* Preview Content */,
@@ -364,13 +379,18 @@
 				B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */,
 				B857DB8E2CB4328200A4046F /* LoginStatusView.swift in Sources */,
 				B85576482CAFF1AB009DC6FA /* BorderView.swift in Sources */,
+				B86BB90C2CB7DA1400EE06AC /* DividerView.swift in Sources */,
 				B857DB8A2CB428AA00A4046F /* PurchaseStatusView.swift in Sources */,
 				B84E09E42CAC05AB00D159CF /* Symbolview.swift in Sources */,
 				B87BBC8C2CB1B3FC008EEA0E /* PeopleViewModel.swift in Sources */,
+				B86BB9102CB7FDEA00EE06AC /* LinkView.swift in Sources */,
+				B80246EC2CB84C5E00176E37 /* LabelCapsuleStyle.swift in Sources */,
 				B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */,
+				B86BB90E2CB7F14600EE06AC /* ColorPickerView.swift in Sources */,
 				B857DB8C2CB4307D00A4046F /* LoginViewModel.swift in Sources */,
 				B85576462CAFE75D009DC6FA /* ShapeView.swift in Sources */,
 				B86888762CB538A900A368D7 /* LoggedInViewModel.swift in Sources */,
+				B80246EA2CB83AB700176E37 /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
