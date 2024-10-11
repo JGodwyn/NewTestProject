@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI // make sure to import swiftUI
 
+
 struct InitialStyle : LabelStyle {
     func makeBody(configuration: Configuration) -> some View {
         // this valid code though (don't know if it the best way to implement it
@@ -79,5 +80,22 @@ struct ThirdCapsuleStyle : LabelStyle {
         .padding()
         .background(backgroundColor)
         .clipShape(Capsule())
+    }
+}
+
+
+struct ChooseColor : LabelStyle {
+    let text : Color
+    let icon : Color
+    
+    func makeBody(configuration: Configuration) -> some View {
+        Label {
+            configuration.title
+                .foregroundColor(text)
+        } icon: {
+            configuration.icon
+                .foregroundColor(icon)
+            
+        }
     }
 }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B80246EA2CB83AB700176E37 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246E92CB83AB700176E37 /* LabelView.swift */; };
-		B80246EC2CB84C5E00176E37 /* LabelCapsuleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246EB2CB84C5E00176E37 /* LabelCapsuleStyle.swift */; };
+		B80246EC2CB84C5E00176E37 /* LabelStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80246EB2CB84C5E00176E37 /* LabelStyles.swift */; };
 		B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */; };
 		B84E09BC2CABF1D700D159CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E09BB2CABF1D700D159CF /* ContentView.swift */; };
 		B84E09BE2CABF1DB00D159CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84E09BD2CABF1DB00D159CF /* Assets.xcassets */; };
@@ -43,6 +43,8 @@
 		B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */; };
 		B8CC24D52CAC9C6800018626 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC24D42CAC9C6800018626 /* ImageView.swift */; };
 		B8D6AD202CAEA4C100DF3BE4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */; };
+		B8E2D2572CB92B5500342AD5 /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */; };
+		B8E2D25A2CB98A3B00342AD5 /* ProgressViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		B80246E92CB83AB700176E37 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
-		B80246EB2CB84C5E00176E37 /* LabelCapsuleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCapsuleStyle.swift; sourceTree = "<group>"; };
+		B80246EB2CB84C5E00176E37 /* LabelStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyles.swift; sourceTree = "<group>"; };
 		B84E09B62CABF1D700D159CF /* NewTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestProjectApp.swift; sourceTree = "<group>"; };
 		B84E09BB2CABF1D700D159CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,8 @@
 		B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewModel.swift; sourceTree = "<group>"; };
 		B8CC24D42CAC9C6800018626 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
+		B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +169,8 @@
 				B86BB90D2CB7F14600EE06AC /* ColorPickerView.swift */,
 				B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */,
 				B80246E92CB83AB700176E37 /* LabelView.swift */,
-				B80246EB2CB84C5E00176E37 /* LabelCapsuleStyle.swift */,
+				B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */,
+				B8E2D2582CB989F200342AD5 /* Style declarations */,
 				B86BB90A2CB7D76100EE06AC /* State management */,
 				B84E09BD2CABF1DB00D159CF /* Assets.xcassets */,
 				B84E09BF2CABF1DB00D159CF /* Preview Content */,
@@ -228,6 +233,15 @@
 				B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */,
 			);
 			path = "State management";
+			sourceTree = "<group>";
+		};
+		B8E2D2582CB989F200342AD5 /* Style declarations */ = {
+			isa = PBXGroup;
+			children = (
+				B80246EB2CB84C5E00176E37 /* LabelStyles.swift */,
+				B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */,
+			);
+			path = "Style declarations";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,6 +379,7 @@
 				B87BBC882CB1A103008EEA0E /* OuterLoadingView.swift in Sources */,
 				B87BBC8A2CB1ADA1008EEA0E /* ObservableView.swift in Sources */,
 				B87BBC8E2CB1DF77008EEA0E /* PurchaseView.swift in Sources */,
+				B8E2D25A2CB98A3B00342AD5 /* ProgressViewStyles.swift in Sources */,
 				B87BBC862CB19D5D008EEA0E /* BindingView.swift in Sources */,
 				B84E09BC2CABF1D700D159CF /* ContentView.swift in Sources */,
 				B87BBC842CB16E80008EEA0E /* StateView.swift in Sources */,
@@ -384,8 +399,9 @@
 				B84E09E42CAC05AB00D159CF /* Symbolview.swift in Sources */,
 				B87BBC8C2CB1B3FC008EEA0E /* PeopleViewModel.swift in Sources */,
 				B86BB9102CB7FDEA00EE06AC /* LinkView.swift in Sources */,
-				B80246EC2CB84C5E00176E37 /* LabelCapsuleStyle.swift in Sources */,
+				B80246EC2CB84C5E00176E37 /* LabelStyles.swift in Sources */,
 				B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */,
+				B8E2D2572CB92B5500342AD5 /* ProgressLoaderView.swift in Sources */,
 				B86BB90E2CB7F14600EE06AC /* ColorPickerView.swift in Sources */,
 				B857DB8C2CB4307D00A4046F /* LoginViewModel.swift in Sources */,
 				B85576462CAFE75D009DC6FA /* ShapeView.swift in Sources */,
