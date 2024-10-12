@@ -41,10 +41,12 @@
 		B87BBC8E2CB1DF77008EEA0E /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC8D2CB1DF77008EEA0E /* PurchaseView.swift */; };
 		B87BBC902CB1E00B008EEA0E /* PurchaseStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC8F2CB1E00B008EEA0E /* PurchaseStateView.swift */; };
 		B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */; };
+		B8C30FED2CBA8DD6000F2064 /* ToggleStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */; };
 		B8CC24D52CAC9C6800018626 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC24D42CAC9C6800018626 /* ImageView.swift */; };
 		B8D6AD202CAEA4C100DF3BE4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */; };
 		B8E2D2572CB92B5500342AD5 /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */; };
 		B8E2D25A2CB98A3B00342AD5 /* ProgressViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */; };
+		B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,10 +104,12 @@
 		B87BBC8D2CB1DF77008EEA0E /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
 		B87BBC8F2CB1E00B008EEA0E /* PurchaseStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseStateView.swift; sourceTree = "<group>"; };
 		B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewModel.swift; sourceTree = "<group>"; };
+		B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyles.swift; sourceTree = "<group>"; };
 		B8CC24D42CAC9C6800018626 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
 		B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyles.swift; sourceTree = "<group>"; };
+		B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 				B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */,
 				B80246E92CB83AB700176E37 /* LabelView.swift */,
 				B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */,
+				B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */,
 				B8E2D2582CB989F200342AD5 /* Style declarations */,
 				B86BB90A2CB7D76100EE06AC /* State management */,
 				B84E09BD2CABF1DB00D159CF /* Assets.xcassets */,
@@ -238,6 +243,7 @@
 		B8E2D2582CB989F200342AD5 /* Style declarations */ = {
 			isa = PBXGroup;
 			children = (
+				B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */,
 				B80246EB2CB84C5E00176E37 /* LabelStyles.swift */,
 				B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */,
 			);
@@ -396,8 +402,10 @@
 				B85576482CAFF1AB009DC6FA /* BorderView.swift in Sources */,
 				B86BB90C2CB7DA1400EE06AC /* DividerView.swift in Sources */,
 				B857DB8A2CB428AA00A4046F /* PurchaseStatusView.swift in Sources */,
+				B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */,
 				B84E09E42CAC05AB00D159CF /* Symbolview.swift in Sources */,
 				B87BBC8C2CB1B3FC008EEA0E /* PeopleViewModel.swift in Sources */,
+				B8C30FED2CBA8DD6000F2064 /* ToggleStyles.swift in Sources */,
 				B86BB9102CB7FDEA00EE06AC /* LinkView.swift in Sources */,
 				B80246EC2CB84C5E00176E37 /* LabelStyles.swift in Sources */,
 				B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */,
