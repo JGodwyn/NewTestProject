@@ -46,6 +46,12 @@ struct NewTestProjectApp: App {
                         Image(systemName: "person")
                         Text("User")
                     }
+                
+                ButtonView()
+                    .tabItem {
+                        Image(systemName: "button.programmable")
+                        Text("Buttons")
+                    }
             }
         }
     }
