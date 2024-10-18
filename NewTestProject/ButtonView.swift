@@ -9,12 +9,36 @@ import SwiftUI
 
 struct ButtonView: View {
     
+    @EnvironmentObject var router : TabRouter
+    @EnvironmentObject var notificationHandler : NotificationModel
     @State private var counter1 : Int = 1
     @State private var counter2 : Int = 2
     
     var body: some View {
         
         ScrollView {
+            
+            IconLabelButton(btnLabel: "Back home", btnImage: "house") {
+                    router.change(to: .one) // change to screen 1
+            }
+            
+            IconLabelButton(btnLabel: "Increase notif", btnImage: "bell.fill") {
+                notificationHandler.increaseNotif() // increase notification
+            }
+            
+            IconLabelButton(btnLabel: "Reset notif", btnImage: "bell.slash.fill") {
+                notificationHandler.resetNotif() // reset notification
+            }
+            
+            // increase notification via stepper
+            Stepper(value: $notificationHandler.notifCount, in: 0...Int.max, step: 1) {
+                Text("Change notification")
+                    .font(.system(size: 17))
+                    .bold()
+                    .foregroundColor(Color("AccentColor"))
+            }
+            .padding()
+            
             VStack(spacing: 32) { // added a spacing across all items
                 
                 VStack {
@@ -118,7 +142,6 @@ struct ButtonView: View {
                     }
                 }
                 
-                
                 VStack {
                     // Using the material styles
                     // you can apply material to any element though
@@ -178,6 +201,8 @@ struct ButtonView: View {
 
 #Preview {
     ButtonView()
+        .environmentObject(TabRouter())
+        .environmentObject(NotificationModel())
 }
 
 

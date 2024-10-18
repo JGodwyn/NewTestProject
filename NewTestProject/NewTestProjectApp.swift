@@ -7,6 +7,21 @@
 
 import SwiftUI
 
+
+// class to switch tabs without tapping on them
+final class TabRouter : ObservableObject {
+    @Published var screen : Screen = .one
+    
+    enum Screen {
+        case one
+        case two
+    }
+    
+    func change(to screen: Screen) {
+        self.screen = screen
+    }
+}
+
 @main
 struct NewTestProjectApp: App {
     
@@ -16,11 +31,21 @@ struct NewTestProjectApp: App {
     @StateObject private var evm = PurchaseViewModel()
     @StateObject private var loginStatus = LoginViewModel()
     
+    // using the class defined above
+    // this state object handles the change between screens
+    @StateObject private var router = TabRouter()
+    
+    // add and remove notifications
+    @StateObject private var notificationHandler = NotificationModel()
+    
     var body: some Scene {
         WindowGroup {
-            TabView {
+            TabView (selection: $router.screen) { // whenever router.screen changes, check and change the selection to match the changes
                 ContentView()
                     .environmentObject(loginStatus)
+                    .environmentObject(router)
+                    .environmentObject(notificationHandler)
+                    .tag(TabRouter.Screen.one) // give this screen an identifier so the selection know what to change to (in this case, change here when it is Screen 1)
                     .tabItem {
                         Image(systemName: "house")
                         Text("Home")
@@ -47,10 +72,14 @@ struct NewTestProjectApp: App {
                         Text("User")
                     }
                 
+                // You can also write tab items like this.
                 ButtonView()
+                    .environmentObject(router)
+                    .environmentObject(notificationHandler)
+                    .badge(notificationHandler.notifCount) // adding a badge
+                    .tag(TabRouter.Screen.two)
                     .tabItem {
-                        Image(systemName: "button.programmable")
-                        Text("Buttons")
+                        Label("Buttons", systemImage: "button.programmable")
                     }
             }
         }

@@ -52,6 +52,7 @@
 		B8E2D2572CB92B5500342AD5 /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */; };
 		B8E2D25A2CB98A3B00342AD5 /* ProgressViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */; };
 		B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */; };
+		B8E920FD2CC2DB9C00EFBA56 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E920FC2CC2DB9C00EFBA56 /* NotificationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
 		B8E2D2592CB98A3B00342AD5 /* ProgressViewStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewStyles.swift; sourceTree = "<group>"; };
 		B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		B8E920FC2CC2DB9C00EFBA56 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +268,7 @@
 				B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */,
 				B87BBC8B2CB1B3FC008EEA0E /* PeopleViewModel.swift */,
 				B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */,
+				B8E920FC2CC2DB9C00EFBA56 /* NotificationModel.swift */,
 			);
 			path = "State management";
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				B86BB90C2CB7DA1400EE06AC /* DividerView.swift in Sources */,
 				B857DB8A2CB428AA00A4046F /* PurchaseStatusView.swift in Sources */,
 				B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */,
+				B8E920FD2CC2DB9C00EFBA56 /* NotificationModel.swift in Sources */,
 				B84E09E42CAC05AB00D159CF /* Symbolview.swift in Sources */,
 				B87BBC8C2CB1B3FC008EEA0E /* PeopleViewModel.swift in Sources */,
 				B8C30FED2CBA8DD6000F2064 /* ToggleStyles.swift in Sources */,
