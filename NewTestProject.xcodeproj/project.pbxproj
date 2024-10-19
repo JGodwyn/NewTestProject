@@ -12,6 +12,7 @@
 		B80264FB2CBD6CF8005E9B42 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80264FA2CBD6CF8005E9B42 /* ButtonView.swift */; };
 		B80264FD2CBD7C91005E9B42 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80264FC2CBD7C91005E9B42 /* ButtonStyles.swift */; };
 		B807140B2CBFB28200EA6CA7 /* ButtonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B807140A2CBFB28200EA6CA7 /* ButtonComponents.swift */; };
+		B843097C2CC428EB00FF6C6F /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B843097B2CC428EB00FF6C6F /* DateView.swift */; };
 		B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */; };
 		B84E09BC2CABF1D700D159CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E09BB2CABF1D700D159CF /* ContentView.swift */; };
 		B84E09BE2CABF1DB00D159CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84E09BD2CABF1DB00D159CF /* Assets.xcassets */; };
@@ -78,6 +79,7 @@
 		B80264FA2CBD6CF8005E9B42 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		B80264FC2CBD7C91005E9B42 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		B807140A2CBFB28200EA6CA7 /* ButtonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonComponents.swift; sourceTree = "<group>"; };
+		B843097B2CC428EB00FF6C6F /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		B84E09B62CABF1D700D159CF /* NewTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestProjectApp.swift; sourceTree = "<group>"; };
 		B84E09BB2CABF1D700D159CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			children = (
 				B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */,
 				B84E09BB2CABF1D700D159CF /* ContentView.swift */,
+				B843097B2CC428EB00FF6C6F /* DateView.swift */,
 				B84E09E32CAC05AB00D159CF /* Symbolview.swift */,
 				B8CC24D42CAC9C6800018626 /* ImageView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
@@ -444,6 +447,7 @@
 				B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */,
 				B8E920FD2CC2DB9C00EFBA56 /* NotificationModel.swift in Sources */,
 				B84E09E42CAC05AB00D159CF /* Symbolview.swift in Sources */,
+				B843097C2CC428EB00FF6C6F /* DateView.swift in Sources */,
 				B87BBC8C2CB1B3FC008EEA0E /* PeopleViewModel.swift in Sources */,
 				B8C30FED2CBA8DD6000F2064 /* ToggleStyles.swift in Sources */,
 				B86BB9102CB7FDEA00EE06AC /* LinkView.swift in Sources */,
