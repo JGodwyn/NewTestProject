@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+// In summary, use .border() for simple borders around non-shape views, while stroke() and strokeBorder() are better suited for more complex shapes where you need precise control over how borders are rendered.
+// stroke is like center-stroke in Figma
+// strokeBorder is like inner-stroke in Figma
+
+
 struct BorderView: View {
     var body: some View {
         VStack {
@@ -30,7 +35,7 @@ struct BorderView: View {
             
             
             Circle()
-                .strokeBorder( // applies the stroke inner
+                .strokeBorder( // applies the stroke inside the shape
                     LinearGradient(
                         gradient: Gradient(colors: [Color.white, Color("Secondary")]),
                         startPoint: .top,

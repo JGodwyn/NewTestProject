@@ -51,18 +51,24 @@ struct NewTestProjectApp: App {
                         Text("Home")
                     }
                 
-                PurchaseView()
-                    .environmentObject(evm) // pass it into the file you want to access it.
-                    .tabItem {
-                        Image(systemName: "creditcard")
-                        Text("Purchase")
-                    }
+//                PurchaseView()
+//                    .environmentObject(evm) // pass it into the file you want to access it.
+//                    .tabItem {
+//                        Image(systemName: "creditcard")
+//                        Text("Purchase")
+//                    }
+//                
+//                PurchaseStateView()
+//                    .environmentObject(evm)
+//                    .tabItem {
+//                        Image(systemName: "gear")
+//                        Text("State")
+//                    }
                 
-                PurchaseStateView()
-                    .environmentObject(evm)
+                TextfieldView()
                     .tabItem {
-                        Image(systemName: "gear")
-                        Text("State")
+                        Image(systemName: "textformat")
+                        Text("Login")
                     }
                 
                 LoginStatusView()

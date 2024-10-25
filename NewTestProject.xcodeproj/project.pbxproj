@@ -37,6 +37,7 @@
 		B86BB90C2CB7DA1400EE06AC /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB90B2CB7DA1400EE06AC /* DividerView.swift */; };
 		B86BB90E2CB7F14600EE06AC /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB90D2CB7F14600EE06AC /* ColorPickerView.swift */; };
 		B86BB9102CB7FDEA00EE06AC /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */; };
+		B86E2B7F2CC705A700838A29 /* TextfieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E2B7E2CC705A700838A29 /* TextfieldView.swift */; };
 		B87BBC842CB16E80008EEA0E /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC832CB16E80008EEA0E /* StateView.swift */; };
 		B87BBC862CB19D5D008EEA0E /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC852CB19D5D008EEA0E /* BindingView.swift */; };
 		B87BBC882CB1A103008EEA0E /* OuterLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */; };
@@ -107,6 +108,7 @@
 		B86BB90B2CB7DA1400EE06AC /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		B86BB90D2CB7F14600EE06AC /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		B86BB90F2CB7FDEA00EE06AC /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		B86E2B7E2CC705A700838A29 /* TextfieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldView.swift; sourceTree = "<group>"; };
 		B87BBC832CB16E80008EEA0E /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		B87BBC852CB19D5D008EEA0E /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		B87BBC872CB1A103008EEA0E /* OuterLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterLoadingView.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				B84E09B92CABF1D700D159CF /* NewTestProjectApp.swift */,
 				B84E09BB2CABF1D700D159CF /* ContentView.swift */,
 				B843097B2CC428EB00FF6C6F /* DateView.swift */,
+				B86E2B7E2CC705A700838A29 /* TextfieldView.swift */,
 				B84E09E32CAC05AB00D159CF /* Symbolview.swift */,
 				B8CC24D42CAC9C6800018626 /* ImageView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
@@ -436,6 +439,7 @@
 				B87BBC902CB1E00B008EEA0E /* PurchaseStateView.swift in Sources */,
 				B80264FB2CBD6CF8005E9B42 /* ButtonView.swift in Sources */,
 				B86888742CB5299900A368D7 /* LoggedInView.swift in Sources */,
+				B86E2B7F2CC705A700838A29 /* TextfieldView.swift in Sources */,
 				B86A5B122CAD42D700822A7A /* UsingColorsView.swift in Sources */,
 				B807140B2CBFB28200EA6CA7 /* ButtonComponents.swift in Sources */,
 				B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */,

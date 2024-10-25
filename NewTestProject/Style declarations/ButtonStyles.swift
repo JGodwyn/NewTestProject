@@ -47,6 +47,28 @@ struct PlainButtonStyle : ButtonStyle {
     }
 }
 
+struct MainButtonStyle : ButtonStyle {
+    
+    var color : Color
+    var height : CGFloat
+    
+    func makeBody(configuration: Configuration) -> some View {
+        HStack {
+            configuration.label
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 8)
+        .frame(height: height)
+//        .frame(maxWidth: .infinity)
+        .foregroundColor(.white)
+        .background(color)
+        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .opacity(configuration.isPressed ? 0.7 : 1) // have the click effect
+        .scaleEffect(configuration.isPressed ? 0.5 : 1) // slightly scale down
+        .animation(.easeInOut(duration: 0.2), value: configuration.isPressed) // animate it
+    }
+}
+
 
 //struct IconLabelButtonStyle : ButtonStyle {
 //    func makeBody(configuration: Configuration) -> some View {
