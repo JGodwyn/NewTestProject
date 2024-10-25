@@ -49,17 +49,26 @@ struct PlainButtonStyle : ButtonStyle {
 
 struct MainButtonStyle : ButtonStyle {
     
+    var iconName : String
     var color : Color
     var height : CGFloat
+    var fillContainer : Bool
     
     func makeBody(configuration: Configuration) -> some View {
         HStack {
+            if iconName != "none" {
+                // if the name of the icon is not none, show the icon
+                // this works with my MainButton component where the icon string is set to none by default
+                Image(systemName: iconName)
+            }
+            
             configuration.label
+                .bold()
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 8)
         .frame(height: height)
-//        .frame(maxWidth: .infinity)
+        .frame(maxWidth: fillContainer ? .infinity : .none)
         .foregroundColor(.white)
         .background(color)
         .clipShape(RoundedRectangle(cornerRadius: 16))
