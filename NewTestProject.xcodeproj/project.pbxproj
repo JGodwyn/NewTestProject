@@ -57,6 +57,8 @@
 		B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */; };
 		B8E920FD2CC2DB9C00EFBA56 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E920FC2CC2DB9C00EFBA56 /* NotificationModel.swift */; };
 		B8F7CC4C2CCD900E000DC625 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7CC4B2CCD900E000DC625 /* TextView.swift */; };
+		B8F7CC4E2CCD97FD000DC625 /* GroupboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7CC4D2CCD97FD000DC625 /* GroupboxView.swift */; };
+		B8F7CC502CCD9BF5000DC625 /* GroupboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7CC4F2CCD9BF5000DC625 /* GroupboxStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +132,8 @@
 		B8E2D25B2CB9B19A00342AD5 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		B8E920FC2CC2DB9C00EFBA56 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
 		B8F7CC4B2CCD900E000DC625 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		B8F7CC4D2CCD97FD000DC625 /* GroupboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupboxView.swift; sourceTree = "<group>"; };
+		B8F7CC4F2CCD9BF5000DC625 /* GroupboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupboxStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +206,8 @@
 				B86E2B7E2CC705A700838A29 /* TextfieldView.swift */,
 				B8A38BB12CCBDC31006A9452 /* SliderView.swift */,
 				B8F7CC4B2CCD900E000DC625 /* TextView.swift */,
+				B8F7CC4D2CCD97FD000DC625 /* GroupboxView.swift */,
+				B8F7CC4F2CCD9BF5000DC625 /* GroupboxStyle.swift */,
 				B84E09E32CAC05AB00D159CF /* Symbolview.swift */,
 				B8CC24D42CAC9C6800018626 /* ImageView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
@@ -426,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F7CC502CCD9BF5000DC625 /* GroupboxStyle.swift in Sources */,
 				B86BB9072CB7C59400EE06AC /* LoginViewObserved.swift in Sources */,
 				B8CC24D52CAC9C6800018626 /* ImageView.swift in Sources */,
 				B87BBC882CB1A103008EEA0E /* OuterLoadingView.swift in Sources */,
@@ -444,6 +451,7 @@
 				B886A8392CBB22CD00976F3A /* StepperView.swift in Sources */,
 				B87BBC902CB1E00B008EEA0E /* PurchaseStateView.swift in Sources */,
 				B80264FB2CBD6CF8005E9B42 /* ButtonView.swift in Sources */,
+				B8F7CC4E2CCD97FD000DC625 /* GroupboxView.swift in Sources */,
 				B86888742CB5299900A368D7 /* LoggedInView.swift in Sources */,
 				B86E2B7F2CC705A700838A29 /* TextfieldView.swift in Sources */,
 				B86A5B122CAD42D700822A7A /* UsingColorsView.swift in Sources */,
