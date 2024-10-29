@@ -87,6 +87,11 @@ struct NewTestProjectApp: App {
                     .tabItem {
                         Label("Buttons", systemImage: "button.programmable")
                     }
+                
+                SafeAreaView()
+                    .tabItem {
+                        Label("Safe", systemImage: "exclamationmark.triangle.fill")
+                    }
             }
         }
     }
