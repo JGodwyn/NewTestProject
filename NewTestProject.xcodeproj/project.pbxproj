@@ -63,6 +63,7 @@
 		B8F7CC4C2CCD900E000DC625 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7CC4B2CCD900E000DC625 /* TextView.swift */; };
 		B8F7CC4E2CCD97FD000DC625 /* GroupboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7CC4D2CCD97FD000DC625 /* GroupboxView.swift */; };
 		B8F7CC502CCD9BF5000DC625 /* GroupboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F7CC4F2CCD9BF5000DC625 /* GroupboxStyle.swift */; };
+		B8FCFD162CD3E8E2005AE70A /* ScrollviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FCFD152CD3E8E2005AE70A /* ScrollviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,7 @@
 		B8F7CC4B2CCD900E000DC625 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		B8F7CC4D2CCD97FD000DC625 /* GroupboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupboxView.swift; sourceTree = "<group>"; };
 		B8F7CC4F2CCD9BF5000DC625 /* GroupboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupboxStyle.swift; sourceTree = "<group>"; };
+		B8FCFD152CD3E8E2005AE70A /* ScrollviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				B8CC24D42CAC9C6800018626 /* ImageView.swift */,
 				B89FF66E2CD28DBD002DA9FB /* IdentifiableView.swift */,
 				B89FF6702CD29653002DA9FB /* PersonView.swift */,
+				B8FCFD152CD3E8E2005AE70A /* ScrollviewView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
 				B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */,
 				B85576452CAFE75C009DC6FA /* ShapeView.swift */,
@@ -472,6 +475,7 @@
 				B86A5B122CAD42D700822A7A /* UsingColorsView.swift in Sources */,
 				B807140B2CBFB28200EA6CA7 /* ButtonComponents.swift in Sources */,
 				B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */,
+				B8FCFD162CD3E8E2005AE70A /* ScrollviewView.swift in Sources */,
 				B857DB8E2CB4328200A4046F /* LoginStatusView.swift in Sources */,
 				B8F7CC4C2CCD900E000DC625 /* TextView.swift in Sources */,
 				B85576482CAFF1AB009DC6FA /* BorderView.swift in Sources */,
