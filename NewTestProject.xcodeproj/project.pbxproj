@@ -54,6 +54,7 @@
 		B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */; };
 		B8C30FED2CBA8DD6000F2064 /* ToggleStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */; };
 		B8C30FEF2CBADA9F000F2064 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C30FEE2CBADA9F000F2064 /* SpacerView.swift */; };
+		B8C797F02CD5715800A4830B /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C797EF2CD5715800A4830B /* StackView.swift */; };
 		B8CC24D52CAC9C6800018626 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CC24D42CAC9C6800018626 /* ImageView.swift */; };
 		B8D6AD202CAEA4C100DF3BE4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */; };
 		B8E2D2572CB92B5500342AD5 /* ProgressLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */; };
@@ -134,6 +135,7 @@
 		B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewModel.swift; sourceTree = "<group>"; };
 		B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyles.swift; sourceTree = "<group>"; };
 		B8C30FEE2CBADA9F000F2064 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		B8C797EF2CD5715800A4830B /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		B8CC24D42CAC9C6800018626 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		B8E2D2562CB92B5500342AD5 /* ProgressLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoaderView.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				B89FF66E2CD28DBD002DA9FB /* IdentifiableView.swift */,
 				B89FF6702CD29653002DA9FB /* PersonView.swift */,
 				B8FCFD152CD3E8E2005AE70A /* ScrollviewView.swift */,
+				B8C797EF2CD5715800A4830B /* StackView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
 				B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */,
 				B85576452CAFE75C009DC6FA /* ShapeView.swift */,
@@ -464,6 +467,7 @@
 				B86BB9092CB7C8A100EE06AC /* LoggedInViewObserved.swift in Sources */,
 				B86888722CB5266800A368D7 /* LoginView.swift in Sources */,
 				B855764A2CB071A1009DC6FA /* LayoutView.swift in Sources */,
+				B8C797F02CD5715800A4830B /* StackView.swift in Sources */,
 				B89FF66F2CD28DBD002DA9FB /* IdentifiableView.swift in Sources */,
 				B8D6AD202CAEA4C100DF3BE4 /* GradientView.swift in Sources */,
 				B886A8392CBB22CD00976F3A /* StepperView.swift in Sources */,
