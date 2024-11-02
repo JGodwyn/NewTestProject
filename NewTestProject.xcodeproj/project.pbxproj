@@ -52,6 +52,7 @@
 		B89FF6712CD29653002DA9FB /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89FF6702CD29653002DA9FB /* PersonView.swift */; };
 		B8A38BB22CCBDC31006A9452 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A38BB12CCBDC31006A9452 /* SliderView.swift */; };
 		B8AC97092CB2FEF300D8EE59 /* PurchaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */; };
+		B8AC9E0D2CD67C700056D626 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AC9E0C2CD67C700056D626 /* PickerView.swift */; };
 		B8C30FED2CBA8DD6000F2064 /* ToggleStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */; };
 		B8C30FEF2CBADA9F000F2064 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C30FEE2CBADA9F000F2064 /* SpacerView.swift */; };
 		B8C797F02CD5715800A4830B /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C797EF2CD5715800A4830B /* StackView.swift */; };
@@ -133,6 +134,7 @@
 		B89FF6702CD29653002DA9FB /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
 		B8A38BB12CCBDC31006A9452 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		B8AC97082CB2FEF300D8EE59 /* PurchaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewModel.swift; sourceTree = "<group>"; };
+		B8AC9E0C2CD67C700056D626 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		B8C30FEC2CBA8DD6000F2064 /* ToggleStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleStyles.swift; sourceTree = "<group>"; };
 		B8C30FEE2CBADA9F000F2064 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		B8C797EF2CD5715800A4830B /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				B89FF66E2CD28DBD002DA9FB /* IdentifiableView.swift */,
 				B89FF6702CD29653002DA9FB /* PersonView.swift */,
 				B8FCFD152CD3E8E2005AE70A /* ScrollviewView.swift */,
+				B8AC9E0C2CD67C700056D626 /* PickerView.swift */,
 				B8C797EF2CD5715800A4830B /* StackView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
 				B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */,
@@ -470,6 +473,7 @@
 				B8C797F02CD5715800A4830B /* StackView.swift in Sources */,
 				B89FF66F2CD28DBD002DA9FB /* IdentifiableView.swift in Sources */,
 				B8D6AD202CAEA4C100DF3BE4 /* GradientView.swift in Sources */,
+				B8AC9E0D2CD67C700056D626 /* PickerView.swift in Sources */,
 				B886A8392CBB22CD00976F3A /* StepperView.swift in Sources */,
 				B87BBC902CB1E00B008EEA0E /* PurchaseStateView.swift in Sources */,
 				B80264FB2CBD6CF8005E9B42 /* ButtonView.swift in Sources */,
