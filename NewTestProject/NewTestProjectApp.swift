@@ -15,6 +15,9 @@ final class TabRouter : ObservableObject {
     enum Screen {
         case one
         case two
+        case three
+        case four
+        case five
     }
     
     func change(to screen: Screen) {
@@ -38,6 +41,10 @@ struct NewTestProjectApp: App {
     // add and remove notifications
     @StateObject private var notificationHandler = NotificationModel()
     
+    // NOTE: If you tag some tabs and not others, weird things might happen
+    // it's a good idea to tag all your screens.
+    
+    
     var body: some Scene {
         WindowGroup {
             TabView (selection: $router.screen) { // whenever router.screen changes, check and change the selection to match the changes
@@ -51,32 +58,20 @@ struct NewTestProjectApp: App {
                         Text("Home")
                     }
                 
-//                PurchaseView()
-//                    .environmentObject(evm) // pass it into the file you want to access it.
-//                    .tabItem {
-//                        Image(systemName: "creditcard")
-//                        Text("Purchase")
-//                    }
-//                
-//                PurchaseStateView()
-//                    .environmentObject(evm)
-//                    .tabItem {
-//                        Image(systemName: "gear")
-//                        Text("State")
-//                    }
+                //                PurchaseView()
+                //                    .environmentObject(evm) // pass it into the file you want to access it.
+                //                    .tabItem {
+                //                        Image(systemName: "creditcard")
+                //                        Text("Purchase")
+                //                    }
+                //
+                //                PurchaseStateView()
+                //                    .environmentObject(evm)
+                //                    .tabItem {
+                //                        Image(systemName: "gear")
+                //                        Text("State")
+                //                    }
                 
-                TextfieldView()
-                    .tabItem {
-                        Image(systemName: "textformat")
-                        Text("Login")
-                    }
-                
-                LoginStatusView()
-                    .environmentObject(loginStatus)
-                    .tabItem {
-                        Image(systemName: "person")
-                        Text("User")
-                    }
                 
                 // You can also write tab items like this.
                 ButtonView()
@@ -88,9 +83,25 @@ struct NewTestProjectApp: App {
                         Label("Buttons", systemImage: "button.programmable")
                     }
                 
-                SafeAreaView()
+                TextfieldView()
+                    .tag(TabRouter.Screen.three)
                     .tabItem {
-                        Label("Safe", systemImage: "exclamationmark.triangle.fill")
+                        Image(systemName: "textformat")
+                        Text("Login")
+                    }
+                
+                LoginStatusView()
+                    .tag(TabRouter.Screen.four)
+                    .environmentObject(loginStatus)
+                    .tabItem {
+                        Image(systemName: "person")
+                        Text("User")
+                    }
+                
+                GridView()
+                    .tag(TabRouter.Screen.five)
+                    .tabItem {
+                        Label("Grid", systemImage: "grid.circle.fill")
                     }
             }
         }
