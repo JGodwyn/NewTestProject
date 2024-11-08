@@ -46,6 +46,8 @@
 		B87BBC8E2CB1DF77008EEA0E /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC8D2CB1DF77008EEA0E /* PurchaseView.swift */; };
 		B87BBC902CB1E00B008EEA0E /* PurchaseStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87BBC8F2CB1E00B008EEA0E /* PurchaseStateView.swift */; };
 		B886A8392CBB22CD00976F3A /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B886A8382CBB22CD00976F3A /* StepperView.swift */; };
+		B88E200F2CDE843200D11184 /* TransitionTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E200E2CDE843200D11184 /* TransitionTemplateView.swift */; };
+		B88E20112CDE87D500D11184 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E20102CDE87D500D11184 /* TransitionView.swift */; };
 		B8904F472CDE232C00D4244B /* AnimationDifferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8904F462CDE232C00D4244B /* AnimationDifferenceView.swift */; };
 		B897D4F92CD03296009090C9 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B897D4F82CD03296009090C9 /* SafeAreaView.swift */; };
 		B89CD7D72CCFF27B002FA2DA /* BgOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89CD7D62CCFF27B002FA2DA /* BgOverlayView.swift */; };
@@ -132,6 +134,8 @@
 		B87BBC8D2CB1DF77008EEA0E /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
 		B87BBC8F2CB1E00B008EEA0E /* PurchaseStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseStateView.swift; sourceTree = "<group>"; };
 		B886A8382CBB22CD00976F3A /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		B88E200E2CDE843200D11184 /* TransitionTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTemplateView.swift; sourceTree = "<group>"; };
+		B88E20102CDE87D500D11184 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		B8904F462CDE232C00D4244B /* AnimationDifferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDifferenceView.swift; sourceTree = "<group>"; };
 		B897D4F82CD03296009090C9 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
 		B89CD7D62CCFF27B002FA2DA /* BgOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgOverlayView.swift; sourceTree = "<group>"; };
@@ -242,6 +246,8 @@
 				B8A17A0F2CDBC3EC00A942BF /* AnimatingGridsView.swift */,
 				B8A17A112CDBCB3600A942BF /* AnimationView.swift */,
 				B8904F462CDE232C00D4244B /* AnimationDifferenceView.swift */,
+				B88E200E2CDE843200D11184 /* TransitionTemplateView.swift */,
+				B88E20102CDE87D500D11184 /* TransitionView.swift */,
 				B8C797EF2CD5715800A4830B /* StackView.swift */,
 				B86A5B112CAD42D600822A7A /* UsingColorsView.swift */,
 				B8D6AD1F2CAEA4C100DF3BE4 /* GradientView.swift */,
@@ -505,6 +511,7 @@
 				B8C30FEF2CBADA9F000F2064 /* SpacerView.swift in Sources */,
 				B86BB90C2CB7DA1400EE06AC /* DividerView.swift in Sources */,
 				B857DB8A2CB428AA00A4046F /* PurchaseStatusView.swift in Sources */,
+				B88E200F2CDE843200D11184 /* TransitionTemplateView.swift in Sources */,
 				B8E2D25C2CB9B19A00342AD5 /* ToggleView.swift in Sources */,
 				B8E920FD2CC2DB9C00EFBA56 /* NotificationModel.swift in Sources */,
 				B84E09E42CAC05AB00D159CF /* Symbolview.swift in Sources */,
@@ -517,6 +524,7 @@
 				B8A17A102CDBC3EC00A942BF /* AnimatingGridsView.swift in Sources */,
 				B84E09BA2CABF1D700D159CF /* NewTestProjectApp.swift in Sources */,
 				B8A38BB22CCBDC31006A9452 /* SliderView.swift in Sources */,
+				B88E20112CDE87D500D11184 /* TransitionView.swift in Sources */,
 				B8E2D2572CB92B5500342AD5 /* ProgressLoaderView.swift in Sources */,
 				B86BB90E2CB7F14600EE06AC /* ColorPickerView.swift in Sources */,
 				B857DB8C2CB4307D00A4046F /* LoginViewModel.swift in Sources */,
